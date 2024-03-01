@@ -1,0 +1,46 @@
+.boton {
+        font-size: 1.7rem;
+    
+        width: 35%;
+        height: 25%;
+        border-radius: 1.5rem;
+        background-color: rgb(194, 193, 193);
+        margin: auto;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    
+        
+    }
+  
+.skills p{
+    font-size: 1.2rem;
+    margin: 2rem 0px;
+}
+
+
+.list-skills{
+    width: 100%;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.list-skills.div{
+    height: 11rem;
+}
+
+.list-skills img{
+    display: block;
+    margin: auto;
+}
+
+.list-skills p{
+font-size: 1.6rem;
+margin: 1rem 0px;
+color: black;
+text-align: center;
+}
